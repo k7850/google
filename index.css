@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px;
+}
+
+.navdiv ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.navli {
+  padding-top: 9px;
+}
+
+.navli:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navicon {
+  padding-top: 7px;
+  padding-left: 6px;
+  padding-right: 10px;
+}
+
+.navicon:hover {
+  cursor: pointer;
+  background-color: rgb(230,230,230);
+  border-radius: 100px;
+}
+
+.naviconhover{
+  display: none;
+}
+
+.navicon:hover .naviconhover{
+  display: block;
+  position: absolute;
+  background-color: rgb(80, 80, 80);
+  border-radius: 7px;
+  color: white;
+  width: 80px;
+  height: 30px;
+  top: 55px;
+  right: 110px;
+}
+
+.navbutton button {
+  padding: 10px 27px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 130, 255);
+}
+
+.navbutton button:hover{
+  background-color: rgb(0, 90, 255);
+  box-shadow: 2px 2px 10px grey;
+  cursor: pointer;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  height: 90px;
+  background-image: url(./images/googlelogo_color_272x92dp.png);
+}
+
+.searchdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.icon2{
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+
+.keyboard{
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25px;
+  width: 25px;
+  background-image: url(./images/keyboard.png);
+  position: relative;
+  right : 130px;
+  margin-top: 10px;
+}
+
+.keyboard:hover{
+  cursor: pointer;
+}
+
+.keyboardhover{
+  display: none;
+}
+
+.keyboard:hover .keyboardhover{
+  display: block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  top: 40px;
+}
+
+.icon3 {
+  position: relative;
+  right: 90px;
+  bottom: 25px;
+}
+
+.icon3:hover{
+  cursor: pointer;
+}
+
+.icon3hover{
+  display: none;
+}
+
+.icon3:hover .icon3hover{
+  display: block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  top: 40px;
+}
+
+.icon31 {
+  position: absolute;
+}
+
+.icon4 {
+  position: relative;
+  right: 50px;
+  bottom: 25px;
+}
+
+.icon4:hover{
+  cursor: pointer;
+}
+
+.icon4hover{
+  display: none;
+}
+
+.icon4:hover .icon4hover{
+  display: block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  top: 40px;
+}
+
+.icon41 {
+  position: absolute;
+}
+
+.search {
+  padding: 15px;
+  width: 600px;
+  border-width: 1px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  
+}
+
+.search:hover {
+  box-shadow: 3px 3px 10px grey;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.button1 button {
+  padding: 10px 15px;
+  border-style: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.button1 button:hover {
+  background-color: rgb(245, 245, 245);
+  box-shadow: 1px 1px 5px grey;
+  cursor: pointer;
+}
+
+
+.div2 {
+  background-color: rgb(245, 245, 245);
+  color: rgb(100, 100, 100);
+  padding: 15px 30px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+  border-width: 0px;
+  border-top-width: 1px;
+  border-color: rgb(200, 200, 200);
+  color: rgb(100, 100, 100);
+  border-style: solid;
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.div3 ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.div3 ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bot{
+  display: block;
+	bottom: 0px;
+	position: absolute;
+  width: 100%;
+}
